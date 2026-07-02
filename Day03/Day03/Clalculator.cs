@@ -22,7 +22,7 @@ namespace Day03
             {
                 case 1:
                     {
-                        double sum = Add(num1,num2);
+                        double sum = Add(num1, num2);
                         Console.WriteLine($"The ans is : {sum}");
                         break;
                     }
@@ -36,14 +36,14 @@ namespace Day03
 
                 case 3:
                     {
-                        double mul = Multiply( num1,  num2);
+                        double mul = Multiply(num1, num2);
                         Console.WriteLine($"The ans is : {mul}");
                         break;
                     }
 
                 case 4:
                     {
-                        double div = division( num1, num2);
+                        double div = division(num1, num2);
                         Console.WriteLine($"The ans is : {div}");
                         break;
                     }
@@ -53,7 +53,7 @@ namespace Day03
                         Console.WriteLine("Invalid number, choose from 1-4");
                         break;
                     }
-
+            }
 
             }
 
@@ -92,7 +92,7 @@ namespace Day03
 
 
 
-        }
+        
         
 
     }
